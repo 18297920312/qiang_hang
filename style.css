@@ -39,7 +39,7 @@ header .searchForm {
 .searchForm button{
     white-space: nowrap;
     padding: 0px 28px;
-    border: 1px solid #fff;
+    border: none;
     border-radius: 5px;
     background-color: #17B8FA;
     color: white;

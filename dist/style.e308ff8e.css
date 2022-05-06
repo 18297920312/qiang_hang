@@ -33,7 +33,7 @@ header .searchForm {
 .searchForm input {
     height: 40px;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 40px;
     border: 1px solid #DDD;
     border-radius: 5px;
     padding: 0px 10px;
@@ -46,6 +46,7 @@ header .searchForm {
     background-color: #17B8FA;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 main {
@@ -58,7 +59,6 @@ main .siteList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin-right: -35px; */
 }
 @media (min-width: 500px) {
     main .siteList {
@@ -78,8 +78,7 @@ main .site {
     align-items: center;
     background-color: #fff;
     margin-bottom: 10px;
-    /* margin-right: 20px; */
-    padding: 20px;
+    padding: 20px 0px;
     cursor: pointer;
 }
 @media (min-width:500px) {
@@ -96,8 +95,7 @@ main .site .logo {
     align-items: center;
 }
 
-main .site .link {
-     margin-top: 30px;
+.siteList .site .link {
     font-size: 14px;
     margin-top: 5px;
     text-align: center;

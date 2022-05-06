@@ -1,5 +1,5 @@
-/.cache
-/node_modeules/
-/.idea
-/main.js
-/style.css
+./.cache/
+./node_modeules/
+./.idea
+./main.js
+./style.css

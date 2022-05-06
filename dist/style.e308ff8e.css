@@ -18,7 +18,7 @@ header .searchForm {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 @media (min-width: 500px) {

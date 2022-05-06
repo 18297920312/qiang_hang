@@ -33,7 +33,7 @@ header .searchForm {
 .searchForm input {
     height: 40px;
     width: 100%;
-    margin-right: 40px;
+    margin-right: 20px;
     border: 1px solid #DDD;
     border-radius: 5px;
     padding: 0px 10px;
@@ -115,8 +115,21 @@ main .site .close {
         display: block;
     }
 }
-main .addButton {
 
+/* .siteList .addButton {
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
 }
+
+.siteList .addButton .text {
+    font-size: 14px;
+    margin-top: 4px;
+} */
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

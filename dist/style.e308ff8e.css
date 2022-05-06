@@ -12,7 +12,7 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-header {
+header .searchForm {
     /* border: 1px solid red; */
     margin: 20px;
     display: flex;
@@ -20,7 +20,7 @@ header {
 }
 
 @media (min-width: 500px) {
-    header {
+    header .searchForm {
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -28,14 +28,15 @@ header {
         margin-bottom: 50px;
     }
 }
-header input {
+.searchForm input {
     height: 40px;
     width: 100%;
     margin-right: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #DDD;
     border-radius: 5px;
+    padding: 0px 10px;
 }
-header button{
+.searchForm button{
     white-space: nowrap;
     padding: 0px 28px;
     border: 1px solid #fff;

@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "build": "rm -rf dist yarn && parcel build src/index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^5.1.7",
     "postcss": "^8.4.13"
-  }
+  },
+  "name": "index.html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:18297920312/qiang_hang.git",
+  "author": "18297920312 <2635627340@qq.com>",
+  "license": "MIT"
 }
